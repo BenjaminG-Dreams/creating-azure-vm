@@ -42,7 +42,7 @@ First, log into the Azure portal by typing in https://portal.azure.com/. If you 
 ![Screenshot 2025-01-28 203522](https://github.com/user-attachments/assets/e4d75f47-1d7d-4ae3-ba44-6f3d14508b79)
 
 <p>
-Now, navigate to the Resource Group page by either typing the name in the search bar or choosing the button at the homepage of the Azure portal. Secondly, create a new resource group and name it whatever you would like. For this tutorial I will be using "RG-2". After this select the region that is closest to you, I will be using "West US 2". When finished, press "Review + create" button at the bottom left of the screen. Lastly, press create.
+Now, navigate to the Resource Group page by either typing the name in the search bar or choosing the button at the homepage of the Azure portal. Secondly, create a new resource group and name it whatever you would like. For this tutorial I will be using "RG-2". After this select the region that is closest to you, I will be using "east US 2". When finished, press "Review + create" button at the bottom left of the screen. Lastly, press create.
 </p>
 <br />
 
