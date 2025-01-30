@@ -9,7 +9,7 @@ This is an simple online tutorial to teach beginners how to create multiple virt
 
 <h2>Pre-requisites </h2>
 
-- [Setup a Subscription and a Resource in Azure for Beginner Labs](https://github.com/bvongpradith/setup-azure-sub-and-resource)
+- [Setup a Subscription and a Resource in Azure for Beginner Labs](https://github.com/BenjaminG-Dreams/setup-azure-sub-and-resource)
 
 <h2>Environments and Technologies Used</h2>
 
