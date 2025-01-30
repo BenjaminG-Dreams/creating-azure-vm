@@ -42,7 +42,7 @@ First, log into the Azure portal by typing in https://portal.azure.com/. If you 
 ![Screenshot 2025-01-28 203522](https://github.com/user-attachments/assets/e4d75f47-1d7d-4ae3-ba44-6f3d14508b79)
 
 <p>
-Now, navigate to the Resource Group page by either typing the name in the search bar or choosing the button at the homepage of the Azure portal. Secondly, create a new resource group and name it whatever you would like. For this tutorial I will be using "RG-1". After this select the region that is closest to you, I will be using "West US 3". When finished, press "Review + create" button at the bottom left of the screen. Lastly, press create.
+Now, navigate to the Resource Group page by either typing the name in the search bar or choosing the button at the homepage of the Azure portal. Secondly, create a new resource group and name it whatever you would like. For this tutorial I will be using "RG-2". After this select the region that is closest to you, I will be using "West US 2". When finished, press "Review + create" button at the bottom left of the screen. Lastly, press create.
 </p>
 <br />
 
@@ -58,7 +58,7 @@ Create a Virtual Machine by going to the page by typing the name in the search b
 ![Screenshot 2025-01-29 191547](https://github.com/user-attachments/assets/f1725635-b558-4627-aa8d-232aaf479618)
 
 <p>
-After that, select the vcpus and RAM size of the VM. Select the one with at least 2 vcpus and at least 3.5 GB of RAM so the virtual machine is not super slow. Now you will create a username and password which I highly recommend saving or writing down for this tutorial just in case. You will then hit the checkbox at the bottom of the screen and then press next button until you reach the networking section. 
+After that, select the vcpus and RAM size of the VM. Select the one with at least 2 vcpus and at least 8 GB of RAM so the virtual machine is not slow. Now you will create a username and password which I recommend writing down for this tutorial just in case. You will then hit the checkbox at the bottom of the screen and then press next button until you reach the networking section. 
 </p>
 <br />
 
@@ -81,7 +81,7 @@ When the VM is finished deploying, you will go back onto the VM page to create a
 ![Screenshot 2025-01-29 192042](https://github.com/user-attachments/assets/00611b30-1da0-47e3-963f-3ff2978ea013)
 
 <p>
-We will now set the resource group to the same one as the Windows 10 VM and make sure the subscription is the same as well. We'll name this VM2 and make sure the region is the exact same as the other VM. Instead of Windows 10, we'll select Ubuntu Server 20.04 LTS as your image and check the x64 architecture.
+We will now set the resource group to the same one as the Windows 10 VM and make sure the subscription is the same as well. We'll name this VM2 and make sure the region is the exact same as the other VM. Instead of Windows 10, we'll select Ubuntu Server 22.04 LTS as your image and check the x64 architecture.
 </p>
 <br />
 
@@ -96,5 +96,8 @@ Set the size as the same as the first VM we created. Choose password for authent
 
 <p>
 Select the asame Vnet that the Windows VM created. This should be deafult, but if it is different make sure to change it. Afterwards, just make sure everything is default as well and then hit the "Review + Create" button. Lastly, finish off this VM by pressing "Create".
+
+![Screenshot 2025-01-29 191806](https://github.com/user-attachments/assets/584a4a13-ddfb-4732-86b9-514b9c2a5474)
+
 </p>
 <br />
